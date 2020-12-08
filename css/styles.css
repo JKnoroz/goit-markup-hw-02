@@ -1,0 +1,48 @@
+/* цвет текста #212121 */
+/* color accent #2196F3 */
+/* secondary text #757575 */
+/* button color #F5F4FA */
+/* footer color #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* navigation */
+
+.site-nav span {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts li :hover,
+.contacts li :focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+/* features */
+
+.features p {
+  color: var(--secondary-text-color);
+}
+
+/* buttons */
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
