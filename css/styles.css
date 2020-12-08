@@ -3,6 +3,7 @@
 /* secondary text #757575 */
 /* button color #F5F4FA */
 /* footer color #2F303A */
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -29,6 +30,10 @@ ul {
 .site-nav .link:focus,
 .contacts li :hover,
 .contacts li :focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
