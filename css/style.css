@@ -1,0 +1,14 @@
+/* цвет текста #212121 */
+/* color accent #2196F3 */
+/* secondary text #757575 */
+/* button color #F5F4FA */
+/* footer color #2F303A */
+
+body {
+  color: #212121;
+  background-color: #e5e5e5;
+}
+
+ul {
+  list-style: none;
+}
