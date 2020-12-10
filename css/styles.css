@@ -10,6 +10,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--white-color);
 }
@@ -28,12 +29,16 @@ h2 {
 
 /* navigation */
 
-.site-nav span {
-  color: var(--accent-color);
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logoblack-color);
 }
 
-.site-nav p {
-  color: var(--logoblack-color);
+.logo span {
+  color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -61,7 +66,21 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: #2f303a;
+}
+
 .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
