@@ -153,6 +153,7 @@ h1 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: left;
   color: var(--primary-text-color);
 }
 
@@ -161,7 +162,6 @@ h1 {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  text-align: center;
 }
 
 /* Footer */
