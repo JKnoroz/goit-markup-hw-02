@@ -1,6 +1,3 @@
-/* button color #F5F4FA */
-/* footer color #2F303A */
-
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -50,21 +47,18 @@ h2 {
 }
 
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: inherit;
 }
 
 .contacts a {
   color: var(--secondary-text-color);
 }
 
+.site-nav .link.current,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts li :hover,
 .contacts li :focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -95,18 +89,24 @@ h1 {
 
 /* features */
 
-.features p {
+.features {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+}
+
+.features p {
+  /* font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em; */
   color: var(--secondary-text-color);
 }
 
 .features h3 {
   font-weight: 700;
-  font-size: 14px;
+  /* font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
   text-transform: uppercase;
 }
 
@@ -114,6 +114,39 @@ h1 {
 
 /* Team */
 
-.team li {
+.section-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team p {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+footer {
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+footer .logo {
+  color: var(--white-color);
+}
+
+address p {
+  font-style: normal;
+  color: var(--white-color);
+}
+
+.bottom-contacts a {
+  color: rgba(255, 255, 255, 0.6);
 }
